@@ -1,0 +1,19 @@
+Source: qtgraphicaleffects
+Section: libs
+Priority: optional
+Maintainer: Mohammed Sameer <msameer@foolab.org>
+Build-Depends: debhelper (>= 9),
+               qtbase5-private-dev (>= 5.5.1),
+               qtdeclarative5-private-dev (>= 5.5.1)
+Standards-Version: 3.9.6
+Homepage: http://qt-project.org/
+
+Package: qml-module-qtgraphicaleffects
+Architecture: any
+Depends: qml-module-qtquick2, ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Graphical Effects module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ Qt Graphical Effects contains ready to use visual effects for OpenGL
+ QML applications.
