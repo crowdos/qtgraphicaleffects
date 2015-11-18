@@ -1,0 +1,3 @@
+[submodule "qtgraphicaleffects"]
+	path = qtgraphicaleffects
+	url = git@github.com:qtproject/qtgraphicaleffects.git
